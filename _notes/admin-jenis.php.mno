@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset_jenis" value="name:jeniskopi;datatype:string,name:namakopi;datatype:string" />
+</info>

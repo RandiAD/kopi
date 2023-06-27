@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset_pemesanan" value="name:nomorpemesanan;datatype:int,name:meja;datatype:string,name:namapembeli;datatype:string,name:kodemenu;datatype:string,name:namamenu;datatype:string,name:jumlah;datatype:int,name:totalharga;datatype:int" />
+	<infoitem key="UD_Recordset_tambah" value="name:harga;datatype:string" />
+</info>

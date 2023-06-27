@@ -1,0 +1,202 @@
+body {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+}
+
+#header {
+	background-color:yellow;
+	height:100px;
+	text-align:center;
+	justify-content:center;
+}
+
+#judul_logo{
+	text-align:center;
+	margin:auto;
+	padding-top:35px;
+}
+
+#menubar {
+	height:40px;
+	overflow:auto;
+}
+
+#menubar_left {
+	width:20%;
+	background-color:#333;
+	color:white;
+	float:left;
+	padding-top:10px;
+	height:30px;
+	font-size:11px;
+	padding-left:2%;
+}
+
+#menubar_right {
+	width:76%;
+	background-color:#444;
+	float:right;
+	padding-top:10px;
+	height:30px;
+	padding-left:2%;
+}
+#menubar_right a {
+	padding:10px;
+	margin-left:10px;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+#menubar_right a:hover {
+	color:yellow;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+
+#content {
+	overflow:auto;
+	width:98%;
+	background-color:yellow;
+	padding:1%;
+	padding-bottom:27%;
+}
+
+#content_left {
+	width:23%;
+	background-color:#facfa8;
+	float:left;
+	padding:1%;
+	margin-bottom:-110%;
+	padding-bottom:110%;
+}
+
+#content_right {
+	width:73%;
+	float:right;
+	padding:1%;
+}
+
+#footer {
+	overflow:auto;
+	width:98%;
+	background-color:black;
+	padding:1%;
+	padding-bottom:25px;
+}
+
+.center {
+	text-align:center;
+}
+
+.input-control {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 5px 0;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.btn {
+    padding: 8px 15px;
+    background-color: #666;
+    color: #fff
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+	color:#666;
+}
+
+.btn_th {
+    padding: 5px 10px;
+    background-color: #666;
+    color: #fff;
+	text-decoration:none;
+}
+
+.btn_th:hover {
+    cursor: pointer;
+    background-color: #fff;
+	color:#666;
+	text-decoration:none;
+}
+/*
+.menu_admin_on {
+	color:yellow;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.menu_admin_on:hover {
+	color:#f60;
+}
+
+.menu_admin_off {
+	color:green;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.menu_admin_off:hover {
+	color:#fff;
+}*/
+
+.container {
+	margin-left: 300px;
+	padding: 10px;
+
+}
+
+.standar_tabel {
+	border-bottom:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	box-shadow:4px 4px 4px black;
+}
+
+.standar_tabel th {
+	background-color:#666;
+	color:white;
+	width:25%;
+	border-top:1px solid black;	
+}
+
+.standar_tabel td {
+	border-top:1px solid black;
+	width:75%;
+	background-color:#fff;
+}
+
+.tabel_tegak {
+	border:1px solid black;
+	box-shadow:4px 4px 4px black;
+}
+
+.tabel_tegak th {
+	background-color:#666;
+	color:white;
+	text-align:center;
+	border-top:1px solid black;	
+}
+
+.tabel_tegak td {
+	background-color:#fff;
+	border:1px solid black;
+}
+
+.standar_panel {
+	background-color:#facfa8;
+}
